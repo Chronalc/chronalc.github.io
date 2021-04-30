@@ -1,16 +1,13 @@
 [data-theme="dark"] {
-    background-color: #111 !important;
+    background-color: #1b1d2b !important;
     color: #eee;
   }
   
-  [data-theme="dark"] #header {
-    background-color: #001726 !important;
+  
+  [data-theme="dark"] .logowhite {
+    display: inherit !important;
   }
   
-  [data-theme="dark"] .bg-white {
-    background-color: #000 !important;
-  }
-  
-  [data-theme="dark"] .bg-black {
-    background-color: #eee !important;
+  [data-theme="dark"] .logoblack {
+    display: none !important;
   }
