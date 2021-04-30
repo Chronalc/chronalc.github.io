@@ -1,197 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Página de prueba<title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Chronalc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<header id="header" class="App-header navbar-fixed-top">
-    <div id="header-navigation" class="Header-navigation"><div class="Navigation ButtonGroup "></div></div>
-    <div class="container">
-        <h1 class="Header-title">
-            <a href="https://chronalc.flarum.cloud" id="home-link">
-                                            <img src="https://chronalc.flarum.cloud/assets/logo-mmslhruw.png" alt="Chronalc Forum" class="Header-logo">
-                                    </a>
-        </h1>
-        <div id="header-primary" class="Header-primary"><ul class="Header-controls"></ul></div>
-        <div id="header-secondary" class="Header-secondary"><ul class="Header-controls"><li class="item-search"><div class="Search "><div class="Search-input"><input class="FormControl" type="search" placeholder="Search Forum"></div><ul class="Dropdown-menu Search-results"></ul></div></li><li class="item-flags"><div class="ButtonGroup Dropdown dropdown NotificationsDropdown itemCount0"><button class="Dropdown-toggle Button Button--flat" data-toggle="dropdown" title="Flagged Posts"><i class="icon fas fa-flag Button-icon"></i><span class="Button-label">Flagged Posts</span></button><div class="Dropdown-menu Dropdown-menu--right"></div></div></li><li class="item-notifications"><div class="ButtonGroup Dropdown dropdown NotificationsDropdown itemCount0"><button class="Dropdown-toggle Button Button--flat" data-toggle="dropdown" title="Notifications"><i class="icon fas fa-bell Button-icon"></i><span class="Button-label">Notifications</span></button><div class="Dropdown-menu Dropdown-menu--right"></div></div></li><li class="item-session"><div class="ButtonGroup Dropdown dropdown SessionDropdown itemCount5"><button class="Dropdown-toggle Button Button--user Button--flat" data-toggle="dropdown"><img class="Avatar " src="https://chronalc.flarum.cloud/assets/avatars/tOVWVHpkF4E9mELz.png" alt=""> <span class="Button-label"><span class="username">admin</span></span></button><ul class="Dropdown-menu dropdown-menu Dropdown-menu--right"><li class="item-profile"><a href="/u/admin" active="false" type="button" title="Profile" class="hasIcon"><i class="icon fas fa-user Button-icon"></i><span class="Button-label">Profile</span></a></li><li class="item-settings"><a href="/settings" active="false" type="button" title="Settings" class="hasIcon"><i class="icon fas fa-cog Button-icon"></i><span class="Button-label">Settings</span></a></li><li class="item-administration"><a href="https://chronalc.flarum.cloud/admin" target="_blank" active="false" type="button" title="Administration" class="hasIcon"><i class="icon fas fa-wrench Button-icon"></i><span class="Button-label">Administration</span></a></li><li class="Dropdown-separator"></li><li class="item-logOut"><button type="button" title="Log Out" class="hasIcon"><i class="icon fas fa-sign-out-alt Button-icon"></i><span class="Button-label">Log Out</span></button></li></ul></div></li></ul></div>
-    </div>
-    <div class="custom-control custom-switch">
-        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-      </div>
-      <script src="dark-mode-switch.min.js"></script>
-</header>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/chronalc.css">
 
-</body>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <header id="header" class="App-header navbar-fixed-top">
+        <div id="header-navigation" class="Header-navigation"><div class="Navigation ButtonGroup "></div></div>
+        <div class="container">
+            <h1 class="Header-title">
+                <a href="https://chronalc.flarum.cloud" id="home-link">
+                                                <img src="https://chronalc.flarum.cloud/assets/logo-mmslhruw.png" alt="Chronalc Forum" class="Header-logo">
+                                        </a>
+            </h1>
+            <div id="header-primary" class="Header-primary"><ul class="Header-controls"></ul></div>
+            <div id="header-secondary" class="Header-secondary"><ul class="Header-controls"><li class="item-search"><div class="Search "><div class="Search-input"><input class="FormControl" type="search" placeholder="Search Forum"></div><ul class="Dropdown-menu Search-results"></ul></div></li><li class="item-flags"><div class="ButtonGroup Dropdown dropdown NotificationsDropdown itemCount0"><button class="Dropdown-toggle Button Button--flat" data-toggle="dropdown" title="Flagged Posts"><i class="icon fas fa-flag Button-icon"></i><span class="Button-label">Flagged Posts</span></button><div class="Dropdown-menu Dropdown-menu--right"></div></div></li><li class="item-notifications"><div class="ButtonGroup Dropdown dropdown NotificationsDropdown itemCount0"><button class="Dropdown-toggle Button Button--flat" data-toggle="dropdown" title="Notifications"><i class="icon fas fa-bell Button-icon"></i><span class="Button-label">Notifications</span></button><div class="Dropdown-menu Dropdown-menu--right"></div></div></li><li class="item-session"><div class="ButtonGroup Dropdown dropdown SessionDropdown itemCount5"><button class="Dropdown-toggle Button Button--user Button--flat" data-toggle="dropdown"><img class="Avatar " src="https://chronalc.flarum.cloud/assets/avatars/tOVWVHpkF4E9mELz.png" alt=""> <span class="Button-label"><span class="username">admin</span></span></button><ul class="Dropdown-menu dropdown-menu Dropdown-menu--right"><li class="item-profile"><a href="/u/admin" active="false" type="button" title="Profile" class="hasIcon"><i class="icon fas fa-user Button-icon"></i><span class="Button-label">Profile</span></a></li><li class="item-settings"><a href="/settings" active="false" type="button" title="Settings" class="hasIcon"><i class="icon fas fa-cog Button-icon"></i><span class="Button-label">Settings</span></a></li><li class="item-administration"><a href="https://chronalc.flarum.cloud/admin" target="_blank" active="false" type="button" title="Administration" class="hasIcon"><i class="icon fas fa-wrench Button-icon"></i><span class="Button-label">Administration</span></a></li><li class="Dropdown-separator"></li><li class="item-logOut"><button type="button" title="Log Out" class="hasIcon"><i class="icon fas fa-sign-out-alt Button-icon"></i><span class="Button-label">Log Out</span></button></li></ul></div></li></ul></div>
+        </div>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+          </div>
+          <script src="dark-mode-switch.min.js"></script>
+    </header>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-<style>
-    
-    
-    /*! CSS Used from: https://chronalc.flarum.cloud/assets/forum-a314f57c.css */
-.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
-.fa-bell:before{content:"\f0f3";}
-.fa-cog:before{content:"\f013";}
-.fa-flag:before{content:"\f024";}
-.fa-sign-out-alt:before{content:"\f2f5";}
-.fa-user:before{content:"\f007";}
-.fa-wrench:before{content:"\f0ad";}
-.fas{font-family:'Font Awesome 5 Free';font-weight:900;}
-header{display:block;}
-a{background-color:transparent;}
-a:active,a:hover{outline:0;}
-h1{font-size:2em;margin:.67em 0;}
-img{border:0;}
-button,input{color:inherit;font:inherit;margin:0;}
-button{overflow:visible;}
-button{text-transform:none;}
-button{-webkit-appearance:button;cursor:pointer;}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
-input{line-height:normal;}
-input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
-@media print{
-*,*:before,*:after{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;}
-a,a:visited{text-decoration:underline;}
-a[href]:after{content:" (" attr(href) ")";}
-img{page-break-inside:avoid;}
-img{max-width:100%!important;}
-}
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-h1{line-height:1.3;}
-input,button{font-family:inherit;font-size:inherit;line-height:inherit;}
-a{cursor:pointer;color:#001a2a;text-decoration:none;}
-a:hover{text-decoration:underline;}
-.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
-.container:before,.container:after{content:" ";display:table;}
-.container:after{clear:both;}
-@media (min-width: 768px) and (max-width: 991px){
-.container{width:768px;}
-}
-@media (min-width: 992px) and (max-width: 1099px){
-.container{width:992px;}
-}
-@media (min-width: 1100px){
-.container{width:1100px;}
-}
-input[type="search"]{-webkit-appearance:none;}
-.Header-controls{margin:0;padding:0;list-style:none;}
-.Header-logo{max-height:30px;vertical-align:middle;}
-@media (max-width: 767px){
-.App-header .container{padding:0;}
-.Header-navigation{display:none;}
-.Header-title{padding:13px 10px;font-size:16px;font-weight:normal;margin:0;text-align:center;}
-.Header-controls{margin-top:10px;}
-.Header-controls>li{padding:0 10px 0;}
-.Header-controls .FormControl,.Header-controls .ButtonGroup,.Header-controls .Button{width:100%;text-align:left;}
-.Header-secondary .Search{margin:10px 0;}
-}
-@media (max-width: 767px){
-.App-drawer a{color:#fff;}
-.App-drawer .Search-input{color:#99a3aa;}
-.App-drawer .FormControl{background:#001726;border:0;color:#99a3aa;}
-.App-drawer .FormControl::-moz-placeholder{color:#99a3aa;opacity:1;}
-.App-drawer .FormControl:-ms-input-placeholder{color:#99a3aa;}
-.App-drawer .FormControl::-webkit-input-placeholder{color:#99a3aa;}
-.App-drawer .FormControl:focus{color:#fff;background:#00080c;}
-.App-drawer .Button,.App-drawer .Button:hover{color:#99a3aa;background:#001726;}
-.App-drawer .Button--flat{background:transparent;}
-.App-drawer .Button:active,.App-drawer .Button:focus{background:#001726;color:#99a3aa;}
-}
-@media (min-width: 768px){
-.App-header{background:rgba(0,26,42,0.98);position:fixed;top:0;left:0;right:0;z-index:1000;border-bottom:1px solid #e8ecf3;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-transition:box-shadow 0.2s, -webkit-transform 0.2s;-o-transition:box-shadow 0.2s, -webkit-transform 0.2s;transition:box-shadow 0.2s, -webkit-transform 0.2s;padding:8px;position:absolute;border-bottom:0;}
-.affix .App-header{position:fixed;}
-.App-header,.App-header a{color:#fff;}
-.App-header .Search-input{color:#99a3aa;}
-.App-header .FormControl{background:#001726;border:0;color:#99a3aa;}
-.App-header .FormControl::-moz-placeholder{color:#99a3aa;opacity:1;}
-.App-header .FormControl:-ms-input-placeholder{color:#99a3aa;}
-.App-header .FormControl::-webkit-input-placeholder{color:#99a3aa;}
-.App-header .FormControl:focus{color:#fff;background:#00080c;}
-.App-header .Button,.App-header .Button:hover{color:#99a3aa;background:#001726;}
-.App-header .Button--flat{background:transparent;}
-.App-header .Button:active,.App-header .Button:focus{background:#001726;color:#99a3aa;}
-.Header-navigation{float:left;margin-right:25px;}
-.Header-controls,.Header-controls>li{display:inline-block;vertical-align:middle;}
-.Header-primary{float:left;}
-.Header-title{float:left;vertical-align:top;font-size:18px;font-weight:normal;margin:0 15px 0 0;line-height:34px;}
-.Header-secondary{float:right;}
-.Header-secondary .Search{margin-right:10px;}
-}
-@media (min-width: 768px) and (max-width: 767px){
-.App-header{height:46px;}
-}
-@media (min-width: 768px) and (min-width: 768px){
-.App-header{height:52px;}
-}
-@media (min-width: 768px) and (max-width: 991px){
-.Header-secondary .Search:not(.active) input{padding-right:0;}
-}
-.Avatar{display:inline-block;box-sizing:content-box;color:#fff;text-align:center;vertical-align:top;background-color:#e8ecf3;font-weight:normal;width:48px;height:48px;border-radius:48px;font-size:24px;line-height:48px;}
-.ButtonGroup{position:relative;display:inline-block;vertical-align:middle;}
-.ButtonGroup>.Button{position:relative;float:left;}
-.ButtonGroup>.Button:hover,.ButtonGroup>.Button:focus,.ButtonGroup>.Button:active{z-index:2;}
-.Button{display:inline-block;margin-bottom:0;text-align:center;vertical-align:middle;cursor:pointer;white-space:nowrap;line-height:20px;padding:8px 13px;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#667c99;background:#e8ecf3;border:0;}
-.Button:hover,.Button:focus{background-color:#d7dfea;}
-.Button:active{background-color:#c7d2e1;}
-.Button:hover{text-decoration:none;}
-.Button:active{-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);box-shadow:inset 0 3px 5px rgba(0,0,0,0.125);outline:none;}
-.Button:focus{outline:none;}
-.Button .Button-label{-webkit-transition:margin-right .1s;-o-transition:margin-right .1s;transition:margin-right .1s;}
-.Button--flat{background:transparent;border-radius:18px;}
-.SessionDropdown .Dropdown-toggle{border-radius:18px;}
-.SessionDropdown .Dropdown-toggle .Avatar{margin:-2px 5px -2px -6px;width:24px;height:24px;border-radius:24px;font-size:12px;line-height:24px;}
-.Button-icon{margin-right:7px;}
-.Button-icon{font-size:14px;}
-.Dropdown{position:relative;}
-.Dropdown-menu{position:absolute;top:100%;left:0;z-index:1030;display:none;min-width:160px;padding:8px 0;margin:7px 0;background:#fff;border-radius:4px;-webkit-box-shadow:0 2px 6px rgba(0,0,0,0.35);box-shadow:0 2px 6px rgba(0,0,0,0.35);list-style:none;text-align:left;color:#111;font-size:13px;line-height:1.5;}
-.Dropdown-menu>li>a,.Dropdown-menu>li>button{padding:8px 15px;display:block;width:100%;color:#111;border-radius:0;border:0;background:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-box-shadow:none;box-shadow:none;text-align:left;font-size:13px;font-weight:normal;text-decoration:none;}
-.Dropdown-menu>li>a.hasIcon,.Dropdown-menu>li>button.hasIcon{padding-left:40px;}
-.Dropdown-menu>li>a .Button-icon,.Dropdown-menu>li>button .Button-icon{float:left;margin-left:-25px;margin-top:2px;width:16px;text-align:center;}
-.Dropdown-menu>li>a:hover,.Dropdown-menu>li>button:hover{background:#e8ecf3;}
-.Dropdown-menu>li>a:focus,.Dropdown-menu>li>button:focus{outline:none;}
-.Dropdown-menu--right{left:auto;right:0;}
-.Dropdown-separator{margin:8px 0;background-color:#e8ecf3;height:1px;}
-@media (max-width: 767px){
-.Dropdown .Dropdown-menu{margin:0;position:fixed;left:0!important;right:0!important;width:auto!important;bottom:0;top:auto;padding:0;padding-bottom:40px!important;display:block;max-height:70vh;border-radius:0;-webkit-box-shadow:0 2px 6px rgba(0,0,0,0.35);box-shadow:0 2px 6px rgba(0,0,0,0.35);visibility:hidden;overflow:auto;-webkit-overflow-scrolling:touch;-webkit-transform:translate3d(0, 70vh, 0);transform:translate3d(0, 70vh, 0);-webkit-transition:-webkit-transform  0.3s, visibility 0s 0.3s;-moz-transition:-moz-transform  0.3s, visibility 0s 0.3s;-o-transition:-o-transform  0.3s, visibility 0s 0.3s;transition:transform  0.3s, visibility 0s 0.3s;}
-.Dropdown .Dropdown-menu>li>a,.Dropdown .Dropdown-menu>li>button{background:#fff;font-size:16px;padding:15px 20px;}
-.Dropdown .Dropdown-menu>li>a.hasIcon,.Dropdown .Dropdown-menu>li>button.hasIcon{padding-left:50px;}
-.Dropdown .Dropdown-menu>li>a .Button-icon,.Dropdown .Dropdown-menu>li>button .Button-icon{font-size:16px;margin-left:-30px;}
-.Dropdown .Dropdown-menu>li>a:hover,.Dropdown .Dropdown-menu>li>button:hover{background:#e8ecf3;}
-.Dropdown-separator{margin:0;}
-}
-.FormControl{display:block;width:100%;height:36px;padding:8px 13px;font-size:13px;line-height:1.5;color:#667c99;background-color:#e8ecf3;border:2px solid transparent;border-radius:4px;-webkit-transition:border-color .15s, background .15s;-o-transition:border-color .15s, background .15s;transition:border-color .15s, background .15s;-webkit-appearance:none;}
-.FormControl:focus{background-color:#fff;color:#111;border-color:#001a2a;outline:none;}
-.FormControl::-moz-placeholder{color:#667c99;opacity:1;}
-.FormControl:-ms-input-placeholder{color:#667c99;}
-.FormControl::-webkit-input-placeholder{color:#667c99;}
-@media (max-width: 767px){
-.FormControl{font-size:16px;}
-}
-.Search{position:relative;}
-@media (min-width: 768px){
-.Search{-webkit-transition:margin-left .4s;-o-transition:margin-left .4s;transition:margin-left .4s;}
-}
-.Search-results{max-height:70vh;overflow:auto;left:auto;right:0;}
-@media (max-width: 767px){
-.Search-results{left:0;}
-}
-.Search-input{overflow:hidden;color:#667c99;}
-.Search-input:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;font-family:'Font Awesome 5 Free';font-weight:900;content:"\f002";float:left;margin-right:-36px;width:36px;font-size:14px;text-align:center;position:relative;padding:8px 0;line-height:1.5;pointer-events:none;}
-.Search-input input{float:left;width:225px;padding-left:32px;padding-right:32px;-webkit-transition:all .4s;-o-transition:all .4s;transition:all .4s;box-sizing:inherit!important;}
-@media (min-width: 1100px){
-.App-header .container{transition:width .2s;}
-}
-.NotificationsDropdown .Dropdown-menu{padding:0;}
-.NotificationsDropdown .Dropdown-toggle .Button-label{margin-left:7px;}
-@media (min-width: 768px){
-.NotificationsDropdown .Dropdown-menu{width:425px;}
-.NotificationsDropdown .Dropdown-toggle{width:36px;text-align:center;padding:8px 0;}
-.NotificationsDropdown .Dropdown-toggle .Button-label{display:none;}
-.NotificationsDropdown .Dropdown-toggle .Button-icon{font-size:16px;vertical-align:-1px;margin:0;}
-}
-/*! CSS Used fontfaces */
-@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:400;font-display:block;src:url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.eot');src:url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.eot#iefix') format('embedded-opentype'),url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.woff2') format('woff2'),url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.woff') format('woff'),url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.ttf') format('truetype'),url('https://chronalc.flarum.cloud/assets/fonts/fa-regular-400.svg#fontawesome') format('svg');}
-@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;font-display:block;src:url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.eot');src:url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.eot#iefix') format('embedded-opentype'),url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.woff2') format('woff2'),url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.woff') format('woff'),url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.ttf') format('truetype'),url('https://chronalc.flarum.cloud/assets/fonts/fa-solid-900.svg#fontawesome') format('svg');}
-</style>
