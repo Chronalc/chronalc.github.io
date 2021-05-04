@@ -13,7 +13,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/chronalc.css">
     <link rel="stylesheet" href="css/dark-mode.css">
   </head>
@@ -22,9 +21,9 @@
 
         <nav class="navbar fixed-top navbar-expand-lg">
             <div class="container">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="https://chronalc.flarum.cloud">
             
-                <img class="d-inline-block align-top" src="img/Chronalc_Logo_SVG.svg" alt="Chronalc Logo" height="30">
+                <img class="d-inline-block align-top" src="https://chronalc.flarum.cloud/assets/logo-mmslhruw.png" alt="Chronalc Forum" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -33,10 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://chronalc.flarum.cloud/blog">Cloud</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://chronalc.flarum.cloud/blog">Domains</a>
+                    <a class="nav-link" href="https://chronalc.flarum.cloud/blog">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://chronalc.flarum.cloud/all">Community</a>
@@ -49,13 +45,13 @@
                     More
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Apps</a>
+                    <a class="dropdown-item" href="#">Portfolio</a>
                     <a class="dropdown-item" href="#">Projects</a>
-                    <a class="dropdown-item" href="flarum/services/extensions.html">Flarum Extensions</a>
+                    <a class="dropdown-item" href="Flarum/Services/Flarum-Extensions.html">Flarum Extensions</a>
                     
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Chronalc Libraries</a>
-                    <a class="dropdown-item" href="#">Tailor-made</a>
+                    <a class="dropdown-item" href="#">Tailor-made Works</a>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -63,64 +59,48 @@
                 </li>
               </ul>
 
-              <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-                <label class="custom-control-label" for="darkSwitch"></label>
-              </div>
-              <script src="dark-mode-switch.min.js"></script>
 
+
+              <div class="custom-control custom-switch"></div>
+    <input type="checkbox" class="checkbox custom-control-input" id="darkSwitch" />
+	<label class="label" for="darkSwitch">
+		<i class="fas fa-moon"></i>
+		<i class="fas fa-sun"></i>
+		<div class="ball"></div>
+	</label>
+</div>
+<script src="dark-mode-switch.min.js"></script>
+
+
+              <a href="#" class="nav-item nav-link"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/Chronalc" class="nav-item nav-link"><i class="fab fa-twitter"></i></a>
+              <a href="https://github.com/Chronalc" class="nav-item nav-link"><i class="fab fa-github"></i></a>
             </div>
 
 
-            
-                <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="bi bi-globe"></i> EN
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/">English <i class="bi bi-check-circle-fill"></i></a>
-                    <a class="dropdown-item" href="/es/index.html">Español</a>
-                </div>
-              </li>
-              </ul>
-              
         </div>
           </nav>
 
-<style>
-    /* ============ desktop view HOVER DE LOS DROPDOWNS ============ */
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-/* ============ desktop view .end// ============ */
-</style>
 
 
+    <!--
 
-  <div class="px-4 pt-5 my-5 text-center border-bottom">
-    <img class="logoblack center" src="img/Chronalc_Caja_PNG_200.png" alt="Chronalc Box Logo">
-    <img class="logowhite center" src="img/Chronalc_Caja_White_PNG_200.png" alt="Chronalc Box Logo" style="display:none;">
-  <!--  <h1 class="display-4 fw-bold">Centered screenshot</h1>-->
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <!--<button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>-->
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
       </div>
-    </div>
-    <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-        <img src="https://getbootstrap.com/docs/5.0/examples/heroes/bootstrap-themes.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-      </div>
-    </div>
-  </div>
+      <script src="dark-mode-switch.min.js"></script>
+-->
 
 
- 
+    <img class="logoblack center" src="img/Chronalc_Caja_PNG.png" alt="Chronalc Box Logo">
+    <img class="logowhite center" src="img/Chronalc_Caja_PNG_White.png" alt="Chronalc Box Logo" style="display:none;">
+
+
+
+
+
+
 
 
 
@@ -128,7 +108,7 @@
       <div class="container containerX90">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <p class="subtitle">What do we do?</p>
+                <p class="subtitle">Services</p>
                 <h2 class="section-title">Our Service Area</h2>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
@@ -207,7 +187,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/shopify-bag.png" alt="Shopify Logo">
+                    <div class="card-body"> <img width="70px;" src="img/shopify-bag.png" alt="Chronalc Box Logo">
                         
                         <h4 class="mt-4 mb-3">Shopify</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
@@ -216,7 +196,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body">     <img width="70px;" src="https://elementor.com/cdn-cgi/image/f=auto,w=121,h=120/wp-content/uploads/2021/03/elementor_logo_gradient_120x120.png" alt="Elementor Logo">
+                    <div class="card-body">     <img width="70px;" src="https://elementor.com/cdn-cgi/image/f=auto,w=121,h=120/wp-content/uploads/2021/03/elementor_logo_gradient_120x120.png" alt="Chronalc Box Logo">
 
                         <h4 class="mt-4 mb-3">Elementor</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
@@ -225,7 +205,9 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/pipedrive-square.png" alt="Pipedrive Logo">
+                    <div class="card-body"> <img width="70px;" src="img/pipedrive-square.png" alt="Chronalc Box Logo">
+                        
+
                         <h4 class="mt-4 mb-3">Pipedrive</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
@@ -233,7 +215,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/learnWorlds_logo-huge-banner1.png" alt="LearnWorlds Logo">
+                    <div class="card-body"> <img width="70px;" src="img/learnWorlds_logo-huge-banner1.png" alt="Chronalc Box Logo">
                         <h4 class="mt-4 mb-3">LearnWorlds</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
@@ -241,40 +223,37 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/Respond-io.png" alt="Respond.io Logo">
-                        <h4 class="mt-4 mb-3">Respond.io</h4>
+                    <div class="card-body"> <i class="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Consulting</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/reply.png" alt="Reply.io Logo">
-                        <h4 class="mt-4 mb-3">Reply.io</h4>
+                    <div class="card-body"> <i class="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">SEO Optimization</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/teachable.png" alt="Teachable Logo">
-                        <h4 class="mt-4 mb-3">Teachable</h4>
+                    <div class="card-body"> <i class="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Usability Testing</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/clickmeeting.webp" alt="ClickMeeting Logo">
-                        <h4 class="mt-4 mb-3">ClickMeeting</h4>
+                    <div class="card-body"> <i class="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">UX Prototyping</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">See more</button>
     </div>
 
 
@@ -290,7 +269,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/Flarum.png" alt="Flarum Logo">
+                    <div class="card-body"> <img width="70px;" src="img/flarum.png" alt="Chronalc Box Logo">
                         <h4 class="mt-4 mb-3">Flarum</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
@@ -298,7 +277,7 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/WordPress_blue_logo.svg.png" alt="Wordpress Logo">
+                    <div class="card-body"> <img width="70px;" src="img/wordPress_blue_logo.svg.png" alt="Chronalc Box Logo">
                         
                        
                         <h4 class="mt-4 mb-3">Wordpress</h4>
@@ -308,61 +287,56 @@
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/shopify-bag.png" alt="Shopify Logo">
-                        <h4 class="mt-4 mb-3">Shopify</h4>
+                    <div class="card-body"> <i class="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Web Design</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/discourse.svg.png" alt="Discourse Logo">
-                        <h4 class="mt-4 mb-3">Discourse</h4>
+                    <div class="card-body"> <i class="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Cloud Service</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/statamic.png" alt="Statamic Logo">
-                        <h4 class="mt-4 mb-3">Statamic</h4>
+                    <div class="card-body"> <i class="fa fa-comments icon-lg icon-red icon-bg-red icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Consulting</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/WooCommerce.png" alt="WooCommerce Logo">
-                        <h4 class="mt-4 mb-3">WooCommerce</h4>
+                    <div class="card-body"> <i class="fa fa-search-plus icon-lg icon-green icon-bg-green icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">SEO Optimization</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/prestashop.png" alt="PrestaShop Logo">
-                        <h4 class="mt-4 mb-3">PrestaShop</h4>
+                    <div class="card-body"> <i class="fa fa-user icon-lg icon-orange icon-bg-orange icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">Usability Testing</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4">
                 <div class="card border-0 shadow rounded-xs pt-5">
-                    <div class="card-body"> <img width="70px;" src="img/grav.png" alt="Grav Logo">
-                        <h4 class="mt-4 mb-3">Grav</h4>
+                    <div class="card-body"> <i class="fa fa-envelope icon-lg icon-blue icon-bg-blue icon-bg-circle mb-3"></i>
+                        <h4 class="mt-4 mb-3">UX Prototyping</h4>
                         <p>For what reason would it be advisable for me to think about business content?</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">See more</button>
-    </div>
 
-    <a href="#" class="nav-item nav-link"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://twitter.com/Chronalc" class="nav-item nav-link"><i class="fab fa-twitter"></i></a>
-    <a href="https://github.com/Chronalc" class="nav-item nav-link"><i class="fab fa-github"></i></a>
+
     <img class="centerfooter" src="img/Chronalc_Favicon_PNG.png" alt="Chronalc Logo">
 
 
